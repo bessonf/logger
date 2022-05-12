@@ -2,7 +2,7 @@ import os, logging
 from datetime import datetime
 
 cwd = os.path.dirname(os.path.realpath(__file__))
-now_fname = f'{datetime.now().strftime("%m-%d-%Y_%H:%M:%S")}.txt'
+now_fname = f'{datetime.now().strftime("%m-%d-%Y_%H%M%S")}.txt'
 
 
 # HANDLE PATHS FOR ERROR FILES
